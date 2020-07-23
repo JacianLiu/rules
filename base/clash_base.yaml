@@ -37,9 +37,10 @@ dns:
   listen: 127.0.0.1:5450
   enhanced-mode: fake-ip
   nameserver:
-    - 1.2.4.8
-    - 114.114.114.114
     - 223.5.5.5
+    - 1.2.4.8
+    - 180.76.76.76
+    - 8.8.8.8
     - tls://dns.rubyfish.cn:853
   fallback:
     - tls://dns.rubyfish.cn:853
@@ -8501,7 +8502,6 @@ rules:
 - DOMAIN-KEYWORD,announce,DIRECT
 - DOMAIN-KEYWORD,torrent,DIRECT
 - DOMAIN-KEYWORD,tracker,DIRECT
-# - DOMAIN-SUFFIX,smtp,DIRECT
 - DOMAIN-SUFFIX,acg.tv,AsianTV
 - DOMAIN-SUFFIX,acgvideo.com,AsianTV
 - DOMAIN-SUFFIX,b23.tv,AsianTV
