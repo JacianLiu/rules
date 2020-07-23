@@ -77,6 +77,10 @@ cfw-latency-timeout: 5000
 
 
 rules:
+- DOMAIN-SUFFIX,smtp-mail.outlook.com,SMTP
+- DOMAIN-SUFFIX,imap-mail.outlook.com,SMTP
+- DOMAIN-SUFFIX,imap.gmail.com,SMTP
+- DOMAIN-SUFFIX,smtp.gmail.com,SMTP
 - DOMAIN-SUFFIX,a.ckm.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,ad.m.iqiyi.com,AdBlock
 - DOMAIN-SUFFIX,afp.iqiyi.com,AdBlock
@@ -10611,10 +10615,6 @@ rules:
 - IP-CIDR,127.0.0.0/8,DIRECT
 - IP-CIDR,172.16.0.0/12,DIRECT
 - IP-CIDR,192.168.0.0/16,DIRECT
-- DOMAIN-SUFFIX,smtp-mail.outlook.com,SMTP
-- DOMAIN-SUFFIX,imap-mail.outlook.com,SMTP
-- DOMAIN-SUFFIX,imap.gmail.com,SMTP
-- DOMAIN-SUFFIX,smtp.gmail.com,SMTP
 - GEOIP,CN,Domestic
 - MATCH,Others
 ...
