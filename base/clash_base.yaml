@@ -37,10 +37,10 @@ dns:
   listen: 127.0.0.1:5450
   enhanced-mode: fake-ip
   nameserver:
+    - 8.8.8.8
     - 223.5.5.5
     - 1.2.4.8
     - 180.76.76.76
-    - 8.8.8.8
     - tls://dns.rubyfish.cn:853
   fallback:
     - tls://dns.rubyfish.cn:853
