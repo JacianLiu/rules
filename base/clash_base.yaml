@@ -5,8 +5,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:6170
-experimental:
-  ignore-resolve-fail: true
 
 # you can put the static web resource (such as clash-dashboard) to a directory, and clash would serve in `${API}/ui`
 # input is a relative path to the configuration directory or an absolute path
