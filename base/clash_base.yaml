@@ -29,50 +29,50 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 # DNS 设置
-dns:
-  enable: true
-  ipv6: false
-  listen: 127.0.0.1:5450
-  enhanced-mode: fake-ip
-  nameserver:
-    - 8.8.8.8
-    - 223.5.5.5
-    - 1.2.4.8
-    - 180.76.76.76
-    - tls://dns.rubyfish.cn:853
-  fallback:
-    - tls://dns.rubyfish.cn:853
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
-    - 8.8.8.8
+# dns:
+#   enable: true
+#   ipv6: false
+#   listen: 127.0.0.1:5450
+#   enhanced-mode: fake-ip
+#   nameserver:
+#     - 8.8.8.8
+#     - 223.5.5.5
+#     - 1.2.4.8
+#     - 180.76.76.76
+#     - tls://dns.rubyfish.cn:853
+#   fallback:
+#     - tls://dns.rubyfish.cn:853
+#     - tls://1.0.0.1:853
+#     - tls://dns.google:853
+#     - 8.8.8.8
 
 # Clash for Windows
-cfw-bypass:
-  - qq.com
-  - music.163.com
-  - '*.music.126.net'
-  - localhost
-  - 127.*
-  - 10.*
-  - 172.16.*
-  - 172.17.*
-  - 172.18.*
-  - 172.19.*
-  - 172.20.*
-  - 172.21.*
-  - 172.22.*
-  - 172.23.*
-  - 172.24.*
-  - 172.25.*
-  - 172.26.*
-  - 172.27.*
-  - 172.28.*
-  - 172.29.*
-  - 172.30.*
-  - 172.31.*
-  - 192.168.*
-  - <local>
-cfw-latency-timeout: 5000
+# cfw-bypass:
+#   - qq.com
+#   - music.163.com
+#   - '*.music.126.net'
+#   - localhost
+#   - 127.*
+#   - 10.*
+#   - 172.16.*
+#   - 172.17.*
+#   - 172.18.*
+#   - 172.19.*
+#   - 172.20.*
+#   - 172.21.*
+#   - 172.22.*
+#   - 172.23.*
+#   - 172.24.*
+#   - 172.25.*
+#   - 172.26.*
+#   - 172.27.*
+#   - 172.28.*
+#   - 172.29.*
+#   - 172.30.*
+#   - 172.31.*
+#   - 192.168.*
+#   - <local>
+# cfw-latency-timeout: 5000
 
 
 rules:
