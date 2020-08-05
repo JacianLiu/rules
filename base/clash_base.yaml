@@ -40,8 +40,6 @@ dns:
     - 223.5.5.5
     - 1.2.4.8
     - 180.76.76.76
-    - 156.154.70.1
-    - 1.0.0.1
     - tls://dns.rubyfish.cn:853
   ipv6: false
   enhanced-mode: fake-ip
